@@ -6,6 +6,6 @@
         public string Name { get; set; }
         public DateTime Created { get; set; }
         public DateTime HappeningDate { get; set; }
-        public List<ApplicationUser> Teilnehmer { get; set; }
+        public List<Teilnehmer>? Teilnehmer { get; set; }
     }
 }
